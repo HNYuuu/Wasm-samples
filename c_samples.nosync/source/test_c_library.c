@@ -183,6 +183,22 @@ void test_memmove()
     puts(str);
 }
 
+void test_atof()
+{
+    float val;
+    char str[20];
+
+    strcpy(str, "98993.489");
+    val = atof(str);
+    // these two printf also test memory align
+    printf("String value = %s, Float value = %f, test padding: %c\n", str, val, 97);
+    printf("Float value = %f, String value = %s, test padding: %c\n", val, str, 97);
+
+    strcpy(str, "tutorialspoint.com");
+    val = atof(str);
+    printf("String value = %s, Float value = %f\n", str, val);
+}
+
 int main(void)
 {
     test_strcmp();
@@ -196,6 +212,7 @@ int main(void)
     test_memcpy();
     test_memcmp();
     test_memmove();
+    test_atof();
 
     return 0;
 }
