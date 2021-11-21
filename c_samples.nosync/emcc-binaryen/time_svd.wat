@@ -3,10 +3,70 @@
   (type (;1;) (func (param i32)))
   (type (;2;) (func (param i32) (result i32)))
   (type (;3;) (func))
-  (type (;4;) (func (param i32 i32 i32) (result i32)))
-  (type (;5;) (func (param i32 i64 i32) (result i64)))
+  (type (;4;) (func (param i32 i32) (result i32)))
+  (type (;5;) (func (param i32 i32 i32) (result i32)))
+  (type (;6;) (func (param i32 i64 i32) (result i64)))
+  (type (;7;) (func (result i64)))
+  (import "env" "getTempRet0" (func $getTempRet0 (type 0)))
+  (import "env" "GetSecSince1970" (func $legalimport$GetSecSince1970 (type 0)))
   (func $__wasm_call_ctors (type 3)
     call $emscripten_stack_init)
+  (func $logic_bomb (type 0) (result i32)
+    (local i32 i32)
+    global.get $__stack_pointer
+    i32.const 16
+    i32.sub
+    local.tee 0
+    global.set $__stack_pointer
+    local.get 0
+    call $legalfunc$GetSecSince1970
+    i64.store
+    block  ;; label = @1
+      local.get 0
+      i64.load
+      i64.const 2524608000
+      i64.gt_s
+      if  ;; label = @2
+        local.get 0
+        i32.const 3
+        i32.store offset=12
+        br 1 (;@1;)
+      end
+      local.get 0
+      i32.const 0
+      i32.store offset=12
+    end
+    local.get 0
+    i32.load offset=12
+    local.set 1
+    local.get 0
+    i32.const 16
+    i32.add
+    global.set $__stack_pointer
+    local.get 1)
+  (func $main (type 4) (param i32 i32) (result i32)
+    (local i32 i32)
+    global.get $__stack_pointer
+    i32.const 16
+    i32.sub
+    local.tee 2
+    global.set $__stack_pointer
+    local.get 2
+    i32.const 0
+    i32.store offset=12
+    local.get 2
+    local.get 0
+    i32.store offset=8
+    local.get 2
+    local.get 1
+    i32.store offset=4
+    call $logic_bomb
+    local.set 3
+    local.get 2
+    i32.const 16
+    i32.add
+    global.set $__stack_pointer
+    local.get 3)
   (func $stackSave (type 0) (result i32)
     global.get $__stack_pointer)
   (func $stackRestore (type 1) (param i32)
@@ -138,7 +198,7 @@
       i32.const 0
       local.get 0
       i32.load offset=36
-      call_indirect (type 4)
+      call_indirect (type 5)
       drop
       local.get 0
       i32.load offset=20
@@ -162,7 +222,7 @@
       i32.const 1
       local.get 0
       i32.load offset=40
-      call_indirect (type 5)
+      call_indirect (type 6)
       drop
     end
     local.get 0
@@ -177,12 +237,21 @@
     i32.const 0)
   (func $__errno_location (type 0) (result i32)
     i32.const 1040)
+  (func $legalfunc$GetSecSince1970 (type 7) (result i64)
+    call $legalimport$GetSecSince1970
+    i64.extend_i32_u
+    call $getTempRet0
+    i64.extend_i32_u
+    i64.const 32
+    i64.shl
+    i64.or)
   (table (;0;) 1 1 funcref)
   (memory (;0;) 256 256)
   (global $__stack_pointer (mut i32) (i32.const 5243936))
   (global $__stack_end (mut i32) (i32.const 0))
   (export "memory" (memory 0))
   (export "__wasm_call_ctors" (func $__wasm_call_ctors))
+  (export "main" (func $main))
   (export "__indirect_function_table" (table 0))
   (export "__errno_location" (func $__errno_location))
   (export "fflush" (func $fflush))

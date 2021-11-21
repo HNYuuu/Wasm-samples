@@ -3,10 +3,116 @@
   (type (;1;) (func (param i32)))
   (type (;2;) (func (param i32) (result i32)))
   (type (;3;) (func))
-  (type (;4;) (func (param i32 i32 i32) (result i32)))
-  (type (;5;) (func (param i32 i64 i32) (result i64)))
+  (type (;4;) (func (param i32 i32) (result i32)))
+  (type (;5;) (func (param i32 i32 i32) (result i32)))
+  (type (;6;) (func (param i32 i64 i32) (result i64)))
+  (type (;7;) (func (result i64)))
+  (import "env" "getTempRet0" (func $getTempRet0 (type 0)))
+  (import "env" "GetSecSince1970" (func $legalimport$GetSecSince1970 (type 0)))
   (func $__wasm_call_ctors (type 3)
     call $emscripten_stack_init)
+  (func $logic_bomb (type 0) (result i32)
+    (local i32 i32 i32 i64 i64 i64 i64 i64 i32 i32 i32 i32 i32 i32 i32 i32)
+    global.get $__stack_pointer
+    local.set 0
+    i32.const 16
+    local.set 1
+    local.get 0
+    local.get 1
+    i32.sub
+    local.set 2
+    local.get 2
+    global.set $__stack_pointer
+    call $legalfunc$GetSecSince1970
+    local.set 3
+    local.get 2
+    local.get 3
+    i64.store
+    local.get 2
+    i64.load
+    local.set 4
+    i64.const 2524608000
+    local.set 5
+    local.get 4
+    local.set 6
+    local.get 5
+    local.set 7
+    local.get 6
+    local.get 7
+    i64.gt_s
+    local.set 8
+    i32.const 1
+    local.set 9
+    local.get 8
+    local.get 9
+    i32.and
+    local.set 10
+    block  ;; label = @1
+      block  ;; label = @2
+        local.get 10
+        i32.eqz
+        br_if 0 (;@2;)
+        i32.const 3
+        local.set 11
+        local.get 2
+        local.get 11
+        i32.store offset=12
+        br 1 (;@1;)
+      end
+      i32.const 0
+      local.set 12
+      local.get 2
+      local.get 12
+      i32.store offset=12
+    end
+    local.get 2
+    i32.load offset=12
+    local.set 13
+    i32.const 16
+    local.set 14
+    local.get 2
+    local.get 14
+    i32.add
+    local.set 15
+    local.get 15
+    global.set $__stack_pointer
+    local.get 13
+    return)
+  (func $main (type 4) (param i32 i32) (result i32)
+    (local i32 i32 i32 i32 i32 i32 i32)
+    global.get $__stack_pointer
+    local.set 2
+    i32.const 16
+    local.set 3
+    local.get 2
+    local.get 3
+    i32.sub
+    local.set 4
+    local.get 4
+    global.set $__stack_pointer
+    i32.const 0
+    local.set 5
+    local.get 4
+    local.get 5
+    i32.store offset=12
+    local.get 4
+    local.get 0
+    i32.store offset=8
+    local.get 4
+    local.get 1
+    i32.store offset=4
+    call $logic_bomb
+    local.set 6
+    i32.const 16
+    local.set 7
+    local.get 4
+    local.get 7
+    i32.add
+    local.set 8
+    local.get 8
+    global.set $__stack_pointer
+    local.get 6
+    return)
   (func $stackSave (type 0) (result i32)
     global.get $__stack_pointer)
   (func $stackRestore (type 1) (param i32)
@@ -154,7 +260,7 @@
       i32.const 0
       local.get 0
       i32.load offset=36
-      call_indirect (type 4)
+      call_indirect (type 5)
       drop
       local.get 0
       i32.load offset=20
@@ -179,7 +285,7 @@
       i32.const 1
       local.get 0
       i32.load offset=40
-      call_indirect (type 5)
+      call_indirect (type 6)
       drop
     end
     local.get 0
@@ -194,6 +300,14 @@
     i32.const 0)
   (func $__errno_location (type 0) (result i32)
     i32.const 1040)
+  (func $legalfunc$GetSecSince1970 (type 7) (result i64)
+    call $legalimport$GetSecSince1970
+    i64.extend_i32_u
+    call $getTempRet0
+    i64.extend_i32_u
+    i64.const 32
+    i64.shl
+    i64.or)
   (table (;0;) 1 1 funcref)
   (memory (;0;) 256 256)
   (global $__stack_pointer (mut i32) (i32.const 5243936))
@@ -201,6 +315,7 @@
   (global $__stack_base (mut i32) (i32.const 0))
   (export "memory" (memory 0))
   (export "__wasm_call_ctors" (func $__wasm_call_ctors))
+  (export "main" (func $main))
   (export "__indirect_function_table" (table 0))
   (export "__errno_location" (func $__errno_location))
   (export "fflush" (func $fflush))

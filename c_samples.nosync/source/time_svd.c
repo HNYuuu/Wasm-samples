@@ -7,14 +7,15 @@
 */
 
 #include <stdio.h>
+#include <stdint.h>
 #define BOMB_ENDING 3
 #define NORMAL_ENDING 0
 
-long GetSecSince1970();
+int64_t GetSecSince1970();
 
 int logic_bomb()
 {
-    long v1 = GetSecSince1970();
+    int64_t v1 = GetSecSince1970();
     if (v1 > 2524608000)
     { //Jan 1st, 2050, 00:00::00
         return BOMB_ENDING;
@@ -23,4 +24,9 @@ int logic_bomb()
     {
         return NORMAL_ENDING;
     }
+}
+
+int main(int argc, char **argv)
+{
+    return logic_bomb();
 }
