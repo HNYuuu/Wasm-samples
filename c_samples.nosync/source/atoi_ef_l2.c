@@ -22,7 +22,9 @@ int logic_bomb(char *symvar)
     }
 }
 
-int main(int argc, char **argv)
+int main()
 {
+    char argv[2][5];
+    scanf("%c", &argv[1][0]);
     return logic_bomb(argv[1]);
 }
