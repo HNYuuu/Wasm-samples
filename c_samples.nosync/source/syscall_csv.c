@@ -25,7 +25,9 @@ int logic_bomb(char *s)
     }
 }
 
-int main(int argc, char **argv)
+int main()
 {
+    char argv[2][1];
+    scanf("%c", &argv[1][0]);
     return logic_bomb(argv[1]);
 }
