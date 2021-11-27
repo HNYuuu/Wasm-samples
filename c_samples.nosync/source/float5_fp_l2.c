@@ -40,8 +40,9 @@ void verify_logic_bomb(void)
     return;
 }
 
-int main(int argc, char **argv)
+int main()
 {
+    char argv[2][1];
+    scanf("%c", &argv[1][0]);
     return logic_bomb(argv[1]);
-    // verify_logic_bomb();
 }

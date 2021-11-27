@@ -23,7 +23,3 @@ int main()
     scanf("%c", &argv[1][0]);
     return logic_bomb(argv[1]);
 }
-// int main(int argc, char **argv)
-// {
-//     return logic_bomb(argv[1]);
-// }
