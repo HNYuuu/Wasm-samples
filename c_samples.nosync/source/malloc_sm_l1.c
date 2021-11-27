@@ -13,6 +13,12 @@ int logic_bomb(char s)
     {
         array[k] = k;
     }
+
+    if (!(symvar % 10 >= 0 && symvar % 10 < 10))
+    {
+        return -1;
+    }
+
     if (array[symvar % 10] == 7)
     {
         return BOMB_ENDING;

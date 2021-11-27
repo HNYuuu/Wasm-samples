@@ -72,27 +72,37 @@
     local.get 0
     i64.const 4294967296
     i64.store
-    local.get 0
     local.get 2
     i32.const 48
     i32.sub
     i32.const 10
     i32.rem_s
-    i32.const 2
-    i32.shl
-    i32.add
-    i32.load
+    local.tee 2
+    i32.const 0
+    i32.lt_s
+    if (result i32)  ;; label = @1
+      i32.const -1
+    else
+      i32.const 3
+      i32.const 0
+      local.get 0
+      local.get 2
+      i32.const 65535
+      i32.and
+      i32.const 2
+      i32.shl
+      i32.add
+      i32.load
+      i32.const 7
+      i32.eq
+      select
+    end
     local.set 0
     local.get 1
     i32.const 16
     i32.add
     global.set $__stack_pointer
-    i32.const 3
-    i32.const 0
-    local.get 0
-    i32.const 7
-    i32.eq
-    select)
+    local.get 0)
   (func $main (type 4) (param i32 i32) (result i32)
     call $__original_main)
   (func $scanf (type 4) (param i32 i32) (result i32)

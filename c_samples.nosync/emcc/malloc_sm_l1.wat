@@ -38,7 +38,7 @@
     call $emscripten_stack_init
     call $init_pthread_self)
   (func $logic_bomb (type 0) (param i32) (result i32)
-    (local i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32)
+    (local i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32)
     global.get $__stack_pointer
     local.set 1
     i32.const 32
@@ -155,76 +155,141 @@
       unreachable
     end
     local.get 3
-    i32.load offset=16
-    local.set 30
-    local.get 3
     i32.load offset=20
-    local.set 31
+    local.set 30
     i32.const 10
-    local.set 32
+    local.set 31
+    local.get 30
     local.get 31
-    local.get 32
     i32.rem_s
+    local.set 32
+    i32.const 0
     local.set 33
-    i32.const 2
+    local.get 32
     local.set 34
     local.get 33
-    local.get 34
-    i32.shl
     local.set 35
-    local.get 30
+    local.get 34
     local.get 35
-    i32.add
+    i32.ge_s
     local.set 36
-    local.get 36
-    i32.load
-    local.set 37
-    i32.const 7
-    local.set 38
-    local.get 37
-    local.set 39
-    local.get 38
-    local.set 40
-    local.get 39
-    local.get 40
-    i32.eq
-    local.set 41
     i32.const 1
-    local.set 42
-    local.get 41
-    local.get 42
+    local.set 37
+    local.get 36
+    local.get 37
     i32.and
-    local.set 43
+    local.set 38
     block  ;; label = @1
       block  ;; label = @2
-        local.get 43
+        block  ;; label = @3
+          local.get 38
+          i32.eqz
+          br_if 0 (;@3;)
+          local.get 3
+          i32.load offset=20
+          local.set 39
+          i32.const 10
+          local.set 40
+          local.get 39
+          local.get 40
+          i32.rem_s
+          local.set 41
+          i32.const 10
+          local.set 42
+          local.get 41
+          local.set 43
+          local.get 42
+          local.set 44
+          local.get 43
+          local.get 44
+          i32.lt_s
+          local.set 45
+          i32.const 1
+          local.set 46
+          local.get 45
+          local.get 46
+          i32.and
+          local.set 47
+          local.get 47
+          br_if 1 (;@2;)
+        end
+        i32.const -1
+        local.set 48
+        local.get 3
+        local.get 48
+        i32.store offset=28
+        br 1 (;@1;)
+      end
+      local.get 3
+      i32.load offset=16
+      local.set 49
+      local.get 3
+      i32.load offset=20
+      local.set 50
+      i32.const 10
+      local.set 51
+      local.get 50
+      local.get 51
+      i32.rem_s
+      local.set 52
+      i32.const 2
+      local.set 53
+      local.get 52
+      local.get 53
+      i32.shl
+      local.set 54
+      local.get 49
+      local.get 54
+      i32.add
+      local.set 55
+      local.get 55
+      i32.load
+      local.set 56
+      i32.const 7
+      local.set 57
+      local.get 56
+      local.set 58
+      local.get 57
+      local.set 59
+      local.get 58
+      local.get 59
+      i32.eq
+      local.set 60
+      i32.const 1
+      local.set 61
+      local.get 60
+      local.get 61
+      i32.and
+      local.set 62
+      block  ;; label = @2
+        local.get 62
         i32.eqz
         br_if 0 (;@2;)
         i32.const 3
-        local.set 44
+        local.set 63
         local.get 3
-        local.get 44
+        local.get 63
         i32.store offset=28
         br 1 (;@1;)
       end
       i32.const 0
-      local.set 45
+      local.set 64
       local.get 3
-      local.get 45
+      local.get 64
       i32.store offset=28
     end
     local.get 3
     i32.load offset=28
-    local.set 46
+    local.set 65
     i32.const 32
-    local.set 47
+    local.set 66
     local.get 3
-    local.get 47
+    local.get 66
     i32.add
-    local.set 48
-    local.get 48
+    local.set 67
+    local.get 67
     global.set $__stack_pointer
-    local.get 46
+    local.get 65
     return)
   (func $__original_main (type 1) (result i32)
     (local i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 i32)

@@ -90,6 +90,27 @@
       end
     end
     block  ;; label = @1
+      block  ;; label = @2
+        local.get 1
+        i32.load offset=20
+        i32.const 10
+        i32.rem_s
+        i32.const 0
+        i32.ge_s
+        if  ;; label = @3
+          local.get 1
+          i32.load offset=20
+          i32.const 10
+          i32.rem_s
+          i32.const 10
+          i32.lt_s
+          br_if 1 (;@2;)
+        end
+        local.get 1
+        i32.const -1
+        i32.store offset=28
+        br 1 (;@1;)
+      end
       local.get 1
       i32.load offset=16
       local.get 1
