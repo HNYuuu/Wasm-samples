@@ -7,10 +7,13 @@ all: $(SRCS:.go=.wasm) $(SRCS:.go=.wat) # $(SRCS:.go=.wasm.dwarfdump)
 
 
 %.wasm: %.go
-	tinygo build -wasm-abi=generic -target=wasi -opt=0 -scheduler=none -o ./$@ ./$<
+	tinygo build -wasm-abi=generic -target=wasi -opt=0 -scheduler=none -gc=leaking -o ./$@ ./$<
 
 %.wat: %.wasm
 	wasm2wat ./$< > ./$@
+
+%.ll: %.go
+	tinygo build -opt=0 -scheduler=none -gc=leaking -o ./$@ ./$<
 
 # %.wasm.dwarfdump: %.wasm
 # 	llvm-dwarfdump -all ./$< > ./$@
