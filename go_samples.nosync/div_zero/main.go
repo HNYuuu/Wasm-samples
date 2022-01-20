@@ -4,14 +4,11 @@ import "fmt"
 
 func main() {
 	a := 5
-	// b := 2
-	// fmt.Println(a / b)
 
 	var c int
 	fmt.Scanf("%d", &c)
 	x := a / c
-	fmt.Println("Println: num is", x)
-	fmt.Printf("num is %d", x)
+	fmt.Printf("5 / c is %d\n", x)
 
 	var d int
 	fmt.Scanf("%d", &d)
@@ -19,8 +16,8 @@ func main() {
 		return
 	}
 	y := a / d
-	fmt.Println(y)
+	fmt.Printf("5 / y is %d\n", y)
 
-	// e := 0
-	// fmt.Println(a / e)
+	z := a / (d - 1)
+	fmt.Printf("5 / z is %d\n", z)
 }
