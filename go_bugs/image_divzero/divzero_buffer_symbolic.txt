@@ -1,0 +1,654 @@
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.growHeap 
+WARNING:root:Invoked: runtime.setHeapEnd 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_21_14_[0]_132574============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_22_14_[0]_132586============
+WARNING:root:Invoked: bytes.NewBuffer 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: _/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.Decode 
+WARNING:root:Invoked: _/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.newDecoder 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: _/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.newReaderAt 
+WARNING:root:Invoked: interface:_ReadAt:func:_slice:basic:uint8_basic:int64__basic:int_named:error__.$typeassert 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.hashmapMake 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_ReadAt:func:_slice:basic:uint8_basic:int64__basic:int_named:error__.ReadAt$invoke 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.ReadAt 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.fill 
+WARNING:root:Invoked: io.ReadFull 
+WARNING:root:Invoked: io.ReadAtLeast 
+WARNING:root:Invoked: interface:_Read:func:_slice:basic:uint8__basic:int_named:error__.Read$invoke 
+WARNING:root:Invoked: _*bytes.Buffer_.Read 
+WARNING:root:Invoked: _*bytes.Buffer_.empty 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.stringFromBytes 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.stringEqual 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: interface:_ReadAt:func:_slice:basic:uint8_basic:int64__basic:int_named:error__.ReadAt$invoke 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.ReadAt 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.fill 
+WARNING:root:Invoked: io.ReadFull 
+WARNING:root:Invoked: io.ReadAtLeast 
+WARNING:root:Invoked: interface:_Read:func:_slice:basic:uint8__basic:int_named:error__.Read$invoke 
+WARNING:root:Invoked: _*bytes.Buffer_.Read 
+WARNING:root:Invoked: _*bytes.Buffer_.empty 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_ReadAt:func:_slice:basic:uint8_basic:int64__basic:int_named:error__.ReadAt$invoke 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.ReadAt 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.fill 
+WARNING:root:Invoked: io.ReadFull 
+WARNING:root:Invoked: io.ReadAtLeast 
+WARNING:root:Invoked: interface:_Read:func:_slice:basic:uint8__basic:int_named:error__.Read$invoke 
+WARNING:root:Invoked: _*bytes.Buffer_.Read 
+WARNING:root:Invoked: _*bytes.Buffer_.empty 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: interface:_ReadAt:func:_slice:basic:uint8_basic:int64__basic:int_named:error__.ReadAt$invoke 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.ReadAt 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.buffer_.fill 
+WARNING:root:Invoked: io.ReadFull 
+WARNING:root:Invoked: io.ReadAtLeast 
+WARNING:root:Invoked: interface:_Read:func:_slice:basic:uint8__basic:int_named:error__.Read$invoke 
+WARNING:root:Invoked: _*bytes.Buffer_.Read 
+WARNING:root:Invoked: _*bytes.Buffer_.empty 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.sliceCopy 
+WARNING:root:Invoked: memmove 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.parseIFD 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.ifdUint 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint32 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: interface:_PutUint16:func:_slice:basic:uint8_basic:uint16____PutUint32:func:_slice:basic:uint8_basic:uint32____PutUint64:func:_slice:basic:uint8_basic:uint64____String:func:___basic:string__Uint16:func:_slice:basic:uint8__basic:uint16__Uint32:func:_slice:basic:uint8__basic:uint32__Uint64:func:_slice:basic:uint8__basic:uint64__.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16$invoke 
+WARNING:root:Invoked: _encoding/binary.littleEndian_.Uint16 
+WARNING:root:Invoked: runtime.hashmapBinarySet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapSet 
+WARNING:root:Invoked: runtime.hashmapTopHash 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Printf
+WARNING:root:fmt.printf:'Width is %d'
+WARNING:root:b'Width is Concat(0,\n       Extract(15,\n               0,\n               scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_21_14_[0]_132574))'
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Printf
+WARNING:root:fmt.printf:'Height is %d'
+WARNING:root:b'Height is Concat(0,\n       Extract(15,\n               0,\n               scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_22_14_[0]_132586))'
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: memset 
+WARNING:root:Invoked: _*_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.decoder_.firstVal 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked a Go library function: runtime.divideByZeroPanic
+WARNING:root:[93mDiv-zero! In In file /home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff/reader.go, line no: 515 to 0[0m
+WARNING:root:[93mThe op2 (Extract(15,
+        0,
+        scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_22_14_[0]_132586)) may be zero, which may result in Div-Zero vulnerability![0m
+WARNING:root:Terminated function invoked (Golang): runtime.divideByZeroPanic 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.hashmapBinaryGet 
+WARNING:root:Invoked: runtime.hashmapHash 
+WARNING:root:Invoked: runtime.hashmapGet 
+WARNING:root:Invoked: runtime.memequal 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: image.Rect 
+WARNING:root:Invoked: image.NewRGBA 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: image.pixelBufferLength 
+WARNING:root:Invoked: _image.Rectangle_.Dx 
+WARNING:root:Invoked: _image.Rectangle_.Dy 
+WARNING:root:Invoked: image.mul3NonNeg 
+WARNING:root:Invoked: math/bits.Mul64 
+WARNING:root:Invoked: math/bits.Mul64 
+WARNING:root:Invoked: runtime.stringConcat 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.stringConcat 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.stringConcat 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.stringConcat 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: memcpy 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime._panic 
+WARNING:root:Invoked: runtime.printstring 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.printitf 
+WARNING:root:Invoked: runtime.printstring 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.printnl 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked a wasi syscall function: fd_write
+WARNING:root:fd_write to fd: 1
+WARNING:root:b'panic: image: NewRGBA Rectangle has huge or negative dimensions\n'
+WARNING:root:Invoked: runtime.abort 
+WARNING:root:Invoked: runtime._panic 
+WARNING:root:Invoked: runtime.printstring 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.printitf 
+WARNING:root:Invoked: runtime.printstring 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked: runtime.printnl 
+WARNING:root:Invoked: runtime.putchar 
+WARNING:root:Invoked a wasi syscall function: fd_write
+WARNING:root:fd_write to fd: 1
+WARNING:root:b'panic: image: NewRGBA Rectangle has huge or negative dimensions\n'
+WARNING:root:Invoked: runtime.abort 
+Start to analyze: 01-27 20:56:14
+Traceback (most recent call last):
+  File "/home/warren/Wasm-SE/./octopus_wasm", line 201, in <module>
+    main()
+  File "/home/warren/Wasm-SE/./octopus_wasm", line 188, in main
+    graph.traverse()
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 294, in traverse
+    self.final_states[entry_func] = self.traverse_one(entry_func)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 161, in deal_with_call
+    to_be_returned = pstate.symbolic_stack.pop()
+IndexError: pop from empty list

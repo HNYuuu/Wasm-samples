@@ -1,0 +1,113 @@
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.growHeap 
+WARNING:root:Invoked: runtime.setHeapEnd 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101508============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101509============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101510============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101511============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101512============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101513============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101514============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101515============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101516============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/main.go_11_18_[0]_101517============
+WARNING:root:Invoked: _/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/snappy.Decode 
+WARNING:root:Invoked: _/home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/snappy.decodedLen 
+WARNING:root:Invoked: encoding/binary.Uvarint 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: runtime.lookupPanic
+WARNING:root:[93mruntime.lookupPanic is possible! In In file /home/warren/Wasm-SE/Wasm-samples/go_bugs/slice_index/snappy/decode.go, line no: 54 to 0[0m
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: errors.New 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
