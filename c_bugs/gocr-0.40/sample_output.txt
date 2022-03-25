@@ -1,0 +1,511 @@
+WARNING:root:From main Invoked: __original_main
+WARNING:root:From $func12 Invoked: job_init
+WARNING:root:From $func18 Invoked: list_init
+WARNING:root:End list_init
+WARNING:root:From $func18 Invoked: list_init
+WARNING:root:End list_init
+WARNING:root:From $func18 Invoked: list_init
+WARNING:root:End list_init
+WARNING:root:End job_init
+WARNING:root:From $func12 Invoked: readpgm
+WARNING:root:From $func17 Invoked: fgetc
+WARNING:root:From $func42 Invoked: __uflow
+WARNING:root:From $func41 Invoked: __toread
+WARNING:root:End __toread
+WARNING:root:From $func41 Invoked: __stdio_read
+WARNING:root:Invoked a WASI import function: fd_read
+WARNING:root:fd_read to fd: 0
+WARNING:root:================Initiated an fd_read string: b'P3\n10 10\n255\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'=================
+WARNING:root:1024 bytes read.
+WARNING:root:From $func35 Invoked: __wasi_syscall_ret
+WARNING:root:End __wasi_syscall_ret
+WARNING:root:End __stdio_read
+WARNING:root:End __uflow
+WARNING:root:End fgetc
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: fflush
+WARNING:root:From fflush Invoked: __fflush_unlocked
+WARNING:root:End __fflush_unlocked
+WARNING:root:End fflush
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:51:39.759644
+WARNING:root:before malloc: 100
+
+
+WARNING:root:From $func17 Invoked: dlmalloc
+WARNING:root:From $func91 Invoked: sbrk
+WARNING:root:From $func94 Invoked: emscripten_get_heap_size
+WARNING:root:End emscripten_get_heap_size
+WARNING:root:Invoked a C library function: emscripten_resize_heap
+WARNING:root:End sbrk
+WARNING:root:From $func91 Invoked: sbrk
+WARNING:root:From $func94 Invoked: emscripten_get_heap_size
+WARNING:root:End emscripten_get_heap_size
+WARNING:root:Invoked a C library function: emscripten_resize_heap
+WARNING:root:End sbrk
+WARNING:root:End dlmalloc
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:52:11.932956
+WARNING:root:i: 0
+
+
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:52:36.925075
+WARNING:root:i: 1
+
+
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:53:03.978954
+WARNING:root:i: 2
+
+
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func16 Invoked: ferror
+WARNING:root:End ferror
+WARNING:root:End read_char
+WARNING:root:From $func17 Invoked: isdigit
+WARNING:root:End isdigit
+WARNING:root:From $func17 Invoked: isspace
+WARNING:root:End isspace
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:53:33.291942
+WARNING:root:i: 3
+
+
+WARNING:root:From $func17 Invoked: feof
+WARNING:root:End feof
+WARNING:root:From $func17 Invoked: read_char
+WARNING:root:From $func16 Invoked: fgetc
+WARNING:root:End fgetc
+WARNING:root:From $func16 Invoked: feof

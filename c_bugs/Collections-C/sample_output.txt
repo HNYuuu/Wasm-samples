@@ -1,0 +1,120 @@
+WARNING:root:sth is symbolic
+WARNING:root:sth is symbolic
+WARNING:root:From main Invoked: cc_pqueue_new
+WARNING:root:From $func11 Invoked: cc_pqueue_conf_init
+WARNING:root:End cc_pqueue_conf_init
+WARNING:root:From $func11 Invoked: cc_pqueue_new_conf
+WARNING:root:From $func12 Invoked: dlcalloc
+WARNING:root:From $func71 Invoked: dlmalloc
+WARNING:root:From $func69 Invoked: sbrk
+WARNING:root:From $func76 Invoked: emscripten_get_heap_size
+WARNING:root:End emscripten_get_heap_size
+WARNING:root:Invoked a C library function: emscripten_resize_heap
+WARNING:root:End sbrk
+WARNING:root:From $func69 Invoked: sbrk
+WARNING:root:From $func76 Invoked: emscripten_get_heap_size
+WARNING:root:End emscripten_get_heap_size
+WARNING:root:Invoked a C library function: emscripten_resize_heap
+WARNING:root:End sbrk
+WARNING:root:End dlmalloc
+WARNING:root:From $func71 Invoked: memset
+WARNING:root:End memset
+WARNING:root:End dlcalloc
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:56.865821
+WARNING:root:malloc size is :32
+
+WARNING:root:From $func12 Invoked: dlmalloc
+WARNING:root:End dlmalloc
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:57.487023
+WARNING:root:cc_pqueue_new_conf: capacity: 8
+
+
+WARNING:root:End cc_pqueue_new_conf
+WARNING:root:End cc_pqueue_new
+WARNING:root:Invoked a C library function: scanf
+WARNING:root:============Initiated an scanf integer: scanf_test_cc_pqueue.c_31_5_[0]_5248428============
+WARNING:root:Invoked a C library function: scanf
+WARNING:root:============Initiated an scanf integer: scanf_test_cc_pqueue.c_32_5_[0]_5248424============
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:57.720892
+WARNING:root:e is scanf_test_cc_pqueue.c_31_5_[0]_5248428
+
+
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:57.760566
+WARNING:root:f is scanf_test_cc_pqueue.c_32_5_[0]_5248424
+
+
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:57.805201
+WARNING:root:before pushed 1, capacity: 8
+
+WARNING:root:From main Invoked: cc_pqueue_push
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:57.941441
+WARNING:root:pq size is: 0, capacity is: 8
+
+
+WARNING:root:End cc_pqueue_push
+WARNING:root:Invoked a C library function: puts
+WARNING:root:after pushed 1
+
+WARNING:root:sth is symbolic
+WARNING:root:From main Invoked: cc_pqueue_push
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:58.310007
+WARNING:root:pq size is: 1, capacity is: 8
+
+
+WARNING:root:From $func14 Invoked: cmp
+WARNING:root:End cmp
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:59.350562
+WARNING:root:[4]before parent, buffer is 5248496, index is 2147483647, after index: 5248492
+
+
+WARNING:root:Invoked a C library function: printf
+WARNING:root:Current Time: 2022-03-25 20:36:59.604484
+WARNING:root:DEBUG: 43
+
+
+WARNING:root:End cc_pqueue_push
+WARNING:root:Invoked a C library function: puts
+WARNING:root:after push 2
+
+WARNING:root:sth is symbolic
+WARNING:root:Invoked a C library function: puts
+WARNING:root:after push 2
+
+WARNING:root:sth is symbolic
+WARNING:root:From main Invoked: cc_pqueue_destroy
+WARNING:root:From $func13 Invoked: dlfree
+WARNING:root:End dlfree
+WARNING:root:From $func13 Invoked: dlfree
+WARNING:root:End dlfree
+WARNING:root:End cc_pqueue_destroy
+WARNING:root:From main Invoked: cc_pqueue_destroy
+WARNING:root:From $func13 Invoked: dlfree
+WARNING:root:End dlfree
+WARNING:root:From $func13 Invoked: dlfree
+WARNING:root:End dlfree
+WARNING:root:End cc_pqueue_destroy
+WARNING:root:Invoked a C library function: puts
+WARNING:root:after destroy
+
+WARNING:root:sth is symbolic
+WARNING:root:Invoked a C library function: puts
+WARNING:root:after destroy
+
+WARNING:root:sth is symbolic
+Start to analyze: 03-25 20:36:54
+block_d_0 legalfunc$__wasi_fd_seek
+There are total 2 state(s):
+For state0, return with [0], a set of possible input: [scanf_test_cc_pqueue.c_32_5_[0]_5248424 = 0,
+ scanf_test_cc_pqueue.c_31_5_[0]_5248428 = 0]
+For state1, return with [0], a set of possible input: [scanf_test_cc_pqueue.c_32_5_[0]_5248424 = 1,
+ scanf_test_cc_pqueue.c_31_5_[0]_5248428 = 0]
+End of analyze: 03-25 20:37:01
+Time elapsed: 0:00:07.217374
