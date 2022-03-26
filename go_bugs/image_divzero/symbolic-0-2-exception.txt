@@ -1,0 +1,164 @@
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.growHeap 
+WARNING:root:Invoked: runtime.setHeapEnd 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_38_14_[0]_132716============
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked a Go library function: fmt.Scanf
+WARNING:root:============Initiated an scanf integer: scanf_/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/main.go_39_14_[0]_132732============
+WARNING:root:Invoked: image.Rect 
+WARNING:root:Invoked: image.NewRGBA 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: image.pixelBufferLength 
+WARNING:root:Invoked: _image.Rectangle_.Dx 
+WARNING:root:Invoked: _image.Rectangle_.Dy 
+WARNING:root:Invoked: image.mul3NonNeg 
+WARNING:root:Invoked: math/bits.Mul64 
+WARNING:root:Invoked: math/bits.Mul64 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: _image.Rectangle_.Dx 
+WARNING:root:Invoked: _image.Rectangle_.Dx 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: runtime.alloc 
+WARNING:root:Invoked: runtime.align 
+WARNING:root:Invoked: _/home/warren/Wasm-SE/Wasm-samples/go_bugs/image_divzero/tiff.Encode 
+WARNING:root:Invoked: interface:_At:func:_basic:int_basic:int__named:image/color.Color__Bounds:func:___named:image.Rectangle__ColorModel:func:___named:image/color.Model__.Bounds$invoke 
+WARNING:root:Invoked: _*image.RGBA_.Bounds 
+WARNING:root:Invoked: _image.Rectangle_.Size 
+WARNING:root:Invoked: io.WriteString 
+WARNING:root:Invoked: interface:_WriteString:func:_basic:string__basic:int_named:error__.$typeassert 
+WARNING:root:Invoked: interface:_WriteString:func:_basic:string__basic:int_named:error__.WriteString$invoke 
+WARNING:root:Invoked: _*bytes.Buffer_.WriteString 
+WARNING:root:Invoked: _*bytes.Buffer_.tryGrowByReslice 
+Start to analyze: 01-26 14:32:35
+Traceback (most recent call last):
+  File "/home/warren/Wasm-SE/./octopus_wasm", line 201, in <module>
+    main()
+  File "/home/warren/Wasm-SE/./octopus_wasm", line 188, in main
+    graph.traverse()
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 294, in traverse
+    self.final_states[entry_func] = self.traverse_one(entry_func)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 176, in emulate_one_instruction
+    return instr_obj.emulate(state, has_ret, self.ana.func_prototypes, self.func_index2func_name, self.data_section, self.ana)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 292, in emulate
+    return False, self.deal_with_call(state, f_offset, has_ret, func_prototypes, func_index2func_name, data_section, analyzer)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/ControlInstructions.py", line 155, in deal_with_call
+    possible_states = Graph.traverse_one(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 329, in traverse_one
+    final_states = cls.algo_interval(entry_bb, state, has_ret, blks)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 374, in algo_interval
+    final_states = cls.visit_interval(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 647, in visit_interval
+    f, l = consumer(item)
+  File "/home/warren/.local/lib/python3.9/site-packages/loky/cloudpickle_wrapper.py", line 38, in __call__
+    return self._obj(*args, **kwargs)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/graph.py", line 574, in consumer
+    _, emul_states = cls.wasmVM.emulate_basic_block(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 131, in emulate_basic_block
+    halt, ret = self.emulate_one_instruction(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/emulator_revise.py", line 174, in emulate_one_instruction
+    return instr_obj.emulate(state, self.data_section), None
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/MemoryInstructions.py", line 30, in emulate
+    load_instr(self.instr_str, state, data_section)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/instructions/MemoryInstructions.py", line 61, in load_instr
+    val = lookup_symbolic_memory_data_section(
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/memory.py", line 34, in lookup_symbolic_memory_data_section
+    return _lookup_symbolic_memory_with_symbol(symbolic_memory, dest, length)
+  File "/home/warren/Wasm-SE/octopus/arch/wasm/memory.py", line 68, in _lookup_symbolic_memory_with_symbol
+    if lower_bound <= chosen_num < higher_bound:
+  File "/home/warren/.local/lib/python3.9/site-packages/z3/z3.py", line 380, in __bool__
+    raise Z3Exception("Symbolic expressions cannot be cast to concrete Boolean values.")
+z3.z3types.Z3Exception: Symbolic expressions cannot be cast to concrete Boolean values.
