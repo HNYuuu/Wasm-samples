@@ -1,0 +1,3 @@
+[submodule "magma"]
+	path = magma
+	url = https://github.com/PisonJay/magma
