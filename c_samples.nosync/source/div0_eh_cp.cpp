@@ -45,7 +45,13 @@ int logic_bomb(char *s)
    }
 }
 
-int main(int argc, char **argv)
+int main()
 {
-   return logic_bomb(argv[1]);
+   char argv[4];
+   int i;
+   for (i = 0; i < 4; i++)
+   {
+      scanf("%c", &argv[i]);
+   }
+   return logic_bomb(argv);
 }

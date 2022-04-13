@@ -6,9 +6,9 @@
 using namespace std;
 
 // {"s":{"length": 4}}
-int logic_bomb(char *s)
+int logic_bomb(char s)
 {
-    int symvar = s[0] - 48;
+    int symvar = s - 48;
     vector<int> myvector;
     for (int i = 0; i < 10; i++)
     {
@@ -20,7 +20,9 @@ int logic_bomb(char *s)
         return NORMAL_ENDING;
 }
 
-int main(int argc, char **argv)
+int main()
 {
-    return logic_bomb(argv[1]);
+    char tmp;
+    scanf("%c", &tmp);
+    return logic_bomb(tmp);
 }
