@@ -69,7 +69,7 @@ int logic_bomb(char *s)
 {
     if (strlen(s) != 32)
     {
-        //printf("please input the 128-bit keys\n");
+        // printf("please input the 128-bit keys\n");
         return NORMAL_ENDING;
     }
 
@@ -93,7 +93,7 @@ int logic_bomb(char *s)
            &key[12], &key[13],
            &key[14], &key[15]);
 
-    //aes_print(key);
+    // aes_print(key);
 
     uint8_t decodetext[16];
     uint8_t ciphertext[] = {0x3a, 0xd7, 0x7b, 0xb4, 0x0d, 0x7a, 0x36, 0x60, 0xa8, 0x9e, 0xca, 0xf3, 0x24, 0x66, 0xef, 0x97};
@@ -101,7 +101,7 @@ int logic_bomb(char *s)
 
     AES128_ECB_decrypt(ciphertext, key, decodetext);
 
-    //aes_print(decodetext);
+    // aes_print(decodetext);
     if (0 == memcmp((char *)plaintext, (char *)decodetext, 16))
     {
         return BOMB_ENDING;
@@ -112,7 +112,13 @@ int logic_bomb(char *s)
     }
 }
 
-int main(int argc, char **argv)
+int main()
 {
-    return logic_bomb(argv[1]);
+    char argv[40];
+    int i;
+    for (i = 0; i < 32; i++)
+    {
+        scanf("%c", &argv[i]);
+    }
+    return logic_bomb(argv);
 }

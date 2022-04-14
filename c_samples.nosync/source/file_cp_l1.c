@@ -19,7 +19,7 @@ int logic_bomb(char *s)
     FILE *fp = fopen(file, "ab+");
     if (fp == NULL)
     {
-        //printf("Error!");
+        printf("Error!");
         exit(1);
     }
     fprintf(fp, "%d", symvar);
@@ -39,7 +39,13 @@ int logic_bomb(char *s)
     }
 }
 
-int main(int argc, char **argv)
+int main()
 {
-    return logic_bomb(argv[1]);
+    char argv[5];
+    int i;
+    for (i = 0; i < 4; i++)
+    {
+        scanf("%c", &argv[i]);
+    }
+    return logic_bomb(argv);
 }
