@@ -129,8 +129,8 @@ static char *twoway_strstr(const unsigned char *h, const unsigned char *n)
             // printf("adv by %zu (on %c) at [%s] (%zu;l=%zu)\n", k, h[l-1], h, shift[h[l-1]], l);
             if (k)
             {
-                if (mem0 && mem && k < p)
-                    k = l - p;
+                if (k < mem)
+                    k = mem;
                 h += k;
                 mem = 0;
                 continue;
