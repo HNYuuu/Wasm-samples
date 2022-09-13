@@ -19,7 +19,7 @@ int collatz(int x)
 int main()
 {
     int d;
-    scanf("%d", &d);
+    d = getchar();
     if (d > 3 && d < 9 && d % 2 == 0)
     {
         return collatz(d);
