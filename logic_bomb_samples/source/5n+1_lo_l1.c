@@ -29,12 +29,7 @@ int logic_bomb(char *s)
     if (loopcount == 25)
         return BOMB_ENDING;
     else
-        while (j != 1)
-        {
-            j = f(j);
-            loopcount++;
-        }
-    return NORMAL_ENDING;
+        return NORMAL_ENDING;
 }
 
 int main(int argc, char **argv)
